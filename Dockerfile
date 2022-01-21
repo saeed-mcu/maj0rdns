@@ -9,7 +9,9 @@ EXPOSE 53/udp
 EXPOSE 80
 EXPOSE 443
 
-ENV IP 127.0.0.1
+#public ip of the container 
+
+ENV IP {IP}
 ENV ALLOWED_IP 0.0.0.0/0
 
 CMD echo "Configure iptables..." && \
