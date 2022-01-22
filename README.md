@@ -22,3 +22,10 @@ echo "" > /etc/resolv.conf && echo "nameserver Public_IP_Of_Container" >> /etc/r
 run curl api.myip.com on your local system
 
 it should return your public ip of container 
+
+
+#Restart
+
+to restart the container after changing the config files
+
+./restart.sh
