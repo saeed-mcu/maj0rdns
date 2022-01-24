@@ -47,3 +47,9 @@ docker service create --cap-add=NET_ADMIN -p 53:53/udp -p 443:443 -p 80:80 -e IP
 
 docker service ls
 docker service ps maj0rdnscontainer
+
+![image](https://user-images.githubusercontent.com/46486478/150737474-9b255bd1-d54d-4d6b-92a5-6833e2bdefaf.png)
+
+4- Verify the service 
+
+![image](https://user-images.githubusercontent.com/46486478/150737560-5f644658-97a0-4a68-b024-4ee6fc1b8138.png)
