@@ -52,6 +52,7 @@ docker service scale maj0rdnscontainer=5
 #4- verify the cluster
 
 docker service ls
+
 docker service ps maj0rdnscontainer
 
 ![image](https://user-images.githubusercontent.com/46486478/150737474-9b255bd1-d54d-4d6b-92a5-6833e2bdefaf.png)
