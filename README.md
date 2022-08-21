@@ -32,6 +32,12 @@ to restart the container after changing the config files
 ./restart.sh
 
 
+#IrAccess
+
+to restrict the service to Iran ip address run the iraccess.sh
+
+./iraccess.sh
+
 #Cluster Mode ( docker swarm - single node ) 
 
 after builing the container to run a cluster do the following 
