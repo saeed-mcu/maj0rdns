@@ -1,5 +1,5 @@
 # maj0rdns
-An smart DNS for bypassing geo restorations of specific various web services 
+A smart DNS for bypassing geo restorations of specific various web services 
 
 Hint : this service should be only available to a specefic geo or specefic ip addresses to prevent attacks and etc problem
 
