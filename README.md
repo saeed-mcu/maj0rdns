@@ -62,10 +62,11 @@ docker service ls
 
 docker service ps maj0rdnscontainer
 
-![image](https://user-images.githubusercontent.com/46486478/150737474-9b255bd1-d54d-4d6b-92a5-6833e2bdefaf.png)
+![image](https://user-images.githubusercontent.com/46486478/187826199-498a76f1-1526-4b3d-a70a-ccc3eff80bf3.png)
+
 
 #5- Verify the service 
 
-![image](https://user-images.githubusercontent.com/46486478/150737560-5f644658-97a0-4a68-b024-4ee6fc1b8138.png)
+![image](https://user-images.githubusercontent.com/46486478/187826236-ddf2e475-bb4d-459a-8dc3-4f8be36f6685.png)
 
 
