@@ -8,6 +8,13 @@ A **Smart DNS** for bypassing geo restorations of specific various web services.
 
 ## Installation 
 
+### Pull & run the pre build image
+```bash
+# pull the image and run it
+docker pull maj0rmil4d/maj0rdns
+docker run -d -it --cap-add=NET_ADMIN -p 53:53/udp -p 443:443 -p 80:80 -e IP=PublicIpOfContainer maj0rmil4d/maj0rdns
+```
+
 ### Build
 ```bash
 # Build the docker image, so you could use the docker image and its context in the future easily
