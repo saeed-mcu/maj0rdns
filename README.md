@@ -17,6 +17,7 @@ docker run -d -it --cap-add=NET_ADMIN -p 53:53/udp -p 443:443 -p 80:80 -e IP=Pub
 
 ### Build
 ```bash
+# Change SERVER_IP in Dockerfile with your server public ip
 # Build the docker image, so you could use the docker image and its context in the future easily
 docker build . -t maj0rdns:latest
 ```
